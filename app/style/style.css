@@ -1,0 +1,22 @@
+
+/*tbody {
+	align-items: center;
+	
+}
+
+button, input {
+	height: 30px;
+}
+*/
+#title {
+	background-color: #eee;
+}
+
+tbody {
+	display: inline-block;
+	float: none;
+	border: 1.5px solid #ddd;
+	border-radius: 4px;	
+}
+
+

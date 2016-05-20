@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Finder</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/app/style/style.css">
+    <!-- endinject -->
+</head>
+
+<body>
+    
+    
+    
+    <div ui-view></div>
+
+    <!-- <pre>{{vm.MovieResponse | json}}</pre> -->
+
+</body>
+
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/toastr/toastr.js"></script>
+    <script src="bower_components/lodash/lodash.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endbower -->
+    
+    <!-- inject:js -->
+    <script src="/app/app.js"></script>
+    <script src="/app/controller.js"></script>
+    <script src="/app/factory.js"></script>
+    <!-- endinject -->
+</body>
+
+</html>
